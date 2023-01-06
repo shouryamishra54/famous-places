@@ -1,0 +1,22 @@
+{
+  "name": "famous-places",
+  "version": "1.0.0",
+  "description": "Rest APIs for Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shouryamishra54/famous-places.git"
+  },
+  "author": "Shourya Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shouryamishra54/famous-places/issues"
+  },
+  "homepage": "https://github.com/shouryamishra54/famous-places#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
