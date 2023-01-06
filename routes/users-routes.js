@@ -4,7 +4,7 @@ const { createUser, updateUser, deleteUser, loginUser, getUser, getAllUsers, fet
 const multer = require("multer");
 const { uploadFile } = require("../middleware/upload_image");
 const { AuthUser } = require("../middleware/auth_user");
-const upload = multer({dest: "../upload/images"})
+// const upload = multer({dest: "../upload/images"})
 const router = express.Router();
 
 router.get("/user/:uid", getUser);
