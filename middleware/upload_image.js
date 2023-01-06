@@ -24,6 +24,7 @@ const uploadFile=multer({
         const isValid=!!MIME_TYPE_MAP[file.mimetype]
         // console.log("3")
         const error=isValid? null : new HttpError("Invalid Extension type!", 500)
+        console.log(error)
         callback(error, isValid)
     }
 })
