@@ -10,7 +10,7 @@ const { uploadFile } = require("./middleware/upload_image");
 const app=express()
 app.use(BodyParser.json())
 app.use((req, res, next)=>{
-    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Origin", "https://starter-react-app-eta.vercel.app");
     res.setHeader("Access-Control-Allow-Headers", 
     "Origin, X-Requested-With, Content-Type, Accept, Authorization")
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, PATCH, DELETE, PUT")
